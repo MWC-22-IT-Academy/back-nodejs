@@ -5,12 +5,14 @@ class Server {
         this.app = express();
         this.port = process.env.PORT;
 
+        this.fullDataPath = '/fulldata'
         this.signupPath = '/signup'
         this.routes();
     };
 
     routes() {
         this.app.use(this.signupPath, require('../routes/signup'));
+        this.app.use(this.fullDataPath, require('../routes/fullData'));
     };
 
     listen() {

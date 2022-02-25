@@ -1,6 +1,7 @@
 const { Router } = require('express');
-const router = Router();
 const { signupPost } = require('../controllers/signup');
+
+const router = Router();
 
 router.post('/', signupPost);
 

@@ -1,0 +1,167 @@
+{
+    "fullData": [
+        {
+            "id": 1,
+            "year": 2021,
+            "perrosAcogidosAvg": 79,
+            "perrosAdoptadosAvg": 27,
+            "gatosAcogidosAvg": 65,
+            "gatosAdoptadosAvg": 34,
+            "monthlyData": [
+                {
+                    "month": "Jan",
+                    "perrosAcogidos": 46,
+                    "perrosAdoptados": 27,
+                    "gatosAcogidos": 36,
+                    "gatosAdoptados": 21
+                },
+                {
+                    "month": "Feb",
+                    "perrosAcogidos": 33,
+                    "perrosAdoptados": 49,
+                    "gatosAcogidos": 37,
+                    "gatosAdoptados": 46
+                },
+                {
+                    "month": "Mar",
+                    "perrosAcogidos": 55,
+                    "perrosAdoptados": 26,
+                    "gatosAcogidos": 29,
+                    "gatosAdoptados": 19
+                },
+                {
+                    "month": "Apr",
+                    "perrosAcogidos": 54,
+                    "perrosAdoptados": 23,
+                    "gatosAcogidos": 41,
+                    "gatosAdoptados": 14
+                },
+                {
+                    "month": "May",
+                    "perrosAcogidos": 61,
+                    "perrosAdoptados": 25,
+                    "gatosAcogidos": 106,
+                    "gatosAdoptados": 48
+                },
+                {
+                    "month": "Jun",
+                    "perrosAcogidos": 66,
+                    "perrosAdoptados": 14,
+                    "gatosAcogidos": 115,
+                    "gatosAdoptados": 47
+                },
+                {
+                    "month": "Jul",
+                    "perrosAcogidos": 56,
+                    "perrosAdoptados": 18,
+                    "gatosAcogidos": 101,
+                    "gatosAdoptados": 32
+                },
+                {
+                    "month": "Aug",
+                    "perrosAcogidos": 49,
+                    "perrosAdoptados": 14,
+                    "gatosAcogidos": 81,
+                    "gatosAdoptados": 47
+                },
+                {
+                    "month": "Sep",
+                    "perrosAcogidos": 74,
+                    "perrosAdoptados": 31,
+                    "gatosAcogidos": 70,
+                    "gatosAdoptados": 58
+                },
+                {
+                    "month": "Oct",
+                    "perrosAcogidos": 93,
+                    "perrosAdoptados": 29,
+                    "gatosAcogidos": 84,
+                    "gatosAdoptados": 28
+                },
+                {
+                    "month": "Nov",
+                    "perrosAcogidos": 57,
+                    "perrosAdoptados": 33,
+                    "gatosAcogidos": 48,
+                    "gatosAdoptados": 29
+                },
+                {
+                    "month": "Dec",
+                    "perrosAcogidos": 68,
+                    "perrosAdoptados": 36,
+                    "gatosAcogidos": 39,
+                    "gatosAdoptados": 27
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "year": 2020,
+            "perrosAcogidosAvg": 91,
+            "perrosAdoptadosAvg": 42,
+            "gatosAcogidosAvg": 57,
+            "gatosAdoptadosAvg": 32,
+            "monthlyData": []
+        },
+        {
+            "id": 3,
+            "year": 2019,
+            "perrosAcogidosAvg": 125,
+            "perrosAdoptadosAvg": 40,
+            "gatosAcogidosAvg": 66,
+            "gatosAdoptadosAvg": 38,
+            "monthlyData": []
+        }
+    ],
+    "availableData": [
+        {
+            "id": 1,
+            "year": "2022",
+            "months": [
+                "Jan"
+            ]
+        },
+        {
+            "id": 2,
+            "year": "2021",
+            "months": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+            ]
+        },
+        {
+            "id": 3,
+            "year": "2020",
+            "months": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+            ]
+        }
+    ],
+    "lastFullYearAvailable": [
+        {
+            "id": 1,
+            "year": 2021
+        }
+    ]
+}
