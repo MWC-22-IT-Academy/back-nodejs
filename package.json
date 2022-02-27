@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/app",
-    "start": "node src/app"
+    "dev": "nodemon src/app --exec babel-node",
+    "start": "babel-node src/app"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,10 @@
     "mongoose": "^6.2.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
     "nodemon": "^2.0.15"
   }
 }

@@ -1,5 +1,8 @@
 const express = require('express');
 
+import singup from '../routes/signup';
+import fulldata from '../routes/fullData';
+
 class Server {
     constructor() {
         this.app = express();
@@ -11,8 +14,8 @@ class Server {
     };
 
     routes() {
-        this.app.use(this.signupPath, require('../routes/signup'));
-        this.app.use(this.fullDataPath, require('../routes/fullData'));
+        this.app.use(this.signupPath, singup);
+        this.app.use(this.fullDataPath, fulldata);
     };
 
     listen() {
